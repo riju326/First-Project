@@ -1,0 +1,104 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('login_background.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 420px;
+    color: #eeeeee;
+    border-color: black;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    /*background-color: #6d18c9;*/
+    color: rgb(225, 16, 16);
+}
+ 
+.wrapper .input-box {
+    position: relative;
+    width: 85%;
+    height: 30px;
+    margin: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: rgb(219, 30, 30);
+    border: 2px solid rgba(5, 5, 5, 0.96);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(229, 106, 18);
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: rgb(219, 219, 236);
+}
+
+.input-box i {
+    position:absolute;
+    margin-left: 20px;
+    right: 20px;
+    top: 20%;
+    transform: translateX();
+    font-size: 20px;
+    
+} 
+
+.remember-forget button{
+    background-color: #6d18c9;
+    color: #f4f4f4f5;
+    text-decoration: underline; 
+}
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 10px; */
+    margin:-15px 0 15px ;
+}
+
+.register-link{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: -15px 0 15px */
+    color: #84ff00;
+    text-decoration: underline;
+}
+
+.input-box i{
+    color: rgb(208, 50, 25);
+}
+
+.remember-forget a{
+    color: rgb(243, 243, 243);
+}
+
+.register-link a{
+    color: aqua;
+   
+}
+
+.wrapper .register-link {
+    font-size:  14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
